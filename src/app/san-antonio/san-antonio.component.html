@@ -1,0 +1,41 @@
+<div class="row" style="margin-top: 50px; padding: 10px;">
+    <div class="col-4" style="padding: 5px;" *ngFor="let colum of sanantonio">
+      <div class="card" style="width: 16rem; height: 25rem;">
+        <div class="card-body">
+          <table class="table-responsive">
+            <tr>
+              <td colspan="2" style="text-align:center">
+                <ngx-qrcode
+                  [elementType]="tipoQR"
+                  [value]="obtenervalor(colum.FID,colum.Orden)"
+                  [width]="230"
+                  [margin]="0.5"
+                  [colorDark]="'#24386E'"
+                  [colorLight]="'#FFFFFF'"
+                  cssClass="aclass"></ngx-qrcode>
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align:left">
+                <img width="90" height="110" src="../../assets/img/Escudo.png" />
+              </td>
+            <td style="padding: 5px; font-size: 12px;">
+              <b>
+                <h2 style="text-align: center;">{{[colum.FID]}}</h2>
+              </b>
+              {{[colum.Direccion]}}
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center; ">
+              <b><h4>{{[colum.Orden]}}</h4></b>
+            </td>
+          </tr>
+          </table>
+        </div>
+      </div>
+      <div class="col-12"  *ngIf="bandera==1">
+   <br><br><br><br><br><br><br>
+      </div>
+    </div>
+  </div>
