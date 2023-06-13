@@ -15,6 +15,7 @@ import { SanAntonioComponent } from './san-antonio/san-antonio.component';
 import { CongoComponent } from './congo/congo.component';
 import { TarjetaComponent } from './tarjeta/tarjeta.component';
 import { MargaritaComponent } from './margarita/margarita.component';
+import { ViviendaComponent } from './vivienda/vivienda.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MargaritaComponent } from './margarita/margarita.component';
     SanAntonioComponent,
     CongoComponent,
     TarjetaComponent,
-    MargaritaComponent
+    MargaritaComponent,
+    ViviendaComponent
   ],
   imports: [
     BrowserModule,

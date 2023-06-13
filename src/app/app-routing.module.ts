@@ -6,6 +6,7 @@ import { CongoComponent } from './congo/congo.component';
 import { TarjetaComponent } from './tarjeta/tarjeta.component';
 import { MargaritaComponent } from './margarita/margarita.component';
 import { TablaComponent } from './tabla/tabla.component';
+import { ViviendaComponent } from './vivienda/vivienda.component';
 
 const routes: Routes = [
   { path: 'Campanera', component: CampaneraComponent },
@@ -13,8 +14,8 @@ const routes: Routes = [
   { path: 'Congo', component: CongoComponent },
   { path: 'Tarjeta', component: TarjetaComponent },
   { path: 'Margaritas', component: MargaritaComponent },
-  { path: 'Cuadricula', component: TablaComponent },
   { path: 'Tabla', component: TablaComponent },
+  { path: 'Vivienda', component: ViviendaComponent },
 ];
 
 @NgModule({

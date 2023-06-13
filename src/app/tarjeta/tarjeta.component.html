@@ -1,4 +1,4 @@
-<!--<div class="row" style="margin-top: 10px; padding: 10px;">
+<div class="row" style="margin-top: 10px; padding: 10px;">
   <div class="col-6"  style="padding: 5px;" *ngFor="let colum of tarjetas">
     <div class="card" style="width: 21.25rem; height: 11.8rem; background-color: #24386e; print-color-adjust: exact; -webkit-print-color-adjust:exact;">
       <div class="card-body">
@@ -7,7 +7,7 @@
             <td style="text-align:center">
               <ngx-qrcode
                 [elementType]="tipoQR"
-                [value]="obtenervalor(colum.IdTarjeta,colum.IdOrden)"
+                [value]="obtenervalor(colum.IdQR,colum.N)"
                 [width]="155"
                 [margin]="0"
                 [colorDark]="'#FFFFFF'"
@@ -27,9 +27,9 @@
 <br>
     </div>
   </div>
-</div>-->
+</div>
 
-<div class="row" style="margin-top: 10px; padding: 10px;">
+<!--<div class="row" style="margin-top: 10px; padding: 10px;">
   <div class="col-6"  style="padding: 5px;" *ngFor="let colum of tarjetas">
     <div class="card" style="width: 21.25rem; height: 11.8rem; background-color: #24386e; print-color-adjust: exact; -webkit-print-color-adjust:exact;">
       <img width="345" height="190" src="../../assets/img/Tarjeta AT.png" />
@@ -38,7 +38,4 @@
 <br>
     </div>
   </div>
-</div>
-
-
-
+</div>-->
