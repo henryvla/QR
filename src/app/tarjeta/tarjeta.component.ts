@@ -12,7 +12,8 @@ export class TarjetaComponent implements OnInit {
   bandera: number =0;
  
   tarjetas=[
-    {
+    //QR1
+    /*{
      "N": 1,
      "IdOrden": 10501,
      "IdQR": "30zo2j12",
@@ -24012,6 +24013,7 @@ export class TarjetaComponent implements OnInit {
      "IdQR": "30mu3bak",
      "Etapa": 3
     },
+    //QR2
     {
      "N": 4001,
      "IdOrden": 14501,
@@ -48011,7 +48013,8 @@ export class TarjetaComponent implements OnInit {
      "IdOrden": 18500,
      "IdQR": "30da7top",
      "Etapa": 3
-    },
+    },*/
+    //QR3
     {
      "N": 8001,
      "IdOrden": 18501,

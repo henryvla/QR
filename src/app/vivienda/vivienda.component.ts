@@ -11,6 +11,7 @@ export class ViviendaComponent implements OnInit{
   valorQR!: string;
   bandera: number =0;
   Vivienda=[
+    //QR1
     {
      "N": 1,
      "IdOrden": 9001,
@@ -24040,7 +24041,8 @@ export class ViviendaComponent implements OnInit{
      "IdOrden": 13005,
      "IdQR": "20bi4yuv",
      "Etapa": 3
-    },
+    }/*,
+    //QR2
     {
      "N": 4006,
      "IdOrden": 13006,
@@ -48071,6 +48073,7 @@ export class ViviendaComponent implements OnInit{
      "IdQR": "20su8rif",
      "Etapa": 3
     },
+    //QR3
     {
      "N": 8011,
      "IdOrden": 17011,
@@ -72010,7 +72013,7 @@ export class ViviendaComponent implements OnInit{
      "IdOrden": 21000,
      "IdQR": "20goh2ic",
      "Etapa": 3
-    }
+    }*/
    ];
   constructor() {
     this.tipoQR = NgxQrcodeElementTypes.IMG;
