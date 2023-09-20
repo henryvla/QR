@@ -1,0 +1,39 @@
+<!--6,6 alto 6,9 ancho-->
+<p></p>
+<div class="row" style="margin-top: 2px; padding: 10px;">
+    <div class="col-4" style="padding: 5px;" *ngFor="let colum of QR9">
+      <div class="card" style="width: 15rem; height: 19.8rem;">
+        <div class="card-body">
+          <table class="table-responsive">
+            <tr>
+              <td colspan="2" style="text-align:center">
+                <ngx-qrcode
+                  [elementType]="tipoQR"
+                  [value]="obtenervalor(colum.IdQR,colum.N)"
+                  [width]="195"
+                  [margin]="0"
+                  [colorDark]="'#24386E'"
+                  [colorLight]="'#FFFFFF'"
+                  cssClass="aclass"></ngx-qrcode>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2"style="text-align:center; padding-top: 5px;">
+                <img width="200" height="65" src="../../assets/img/mindel.png" />
+              </td>
+              
+          </tr>
+          <tr>
+            <td colspan="2"style="text-align:center; padding-top: 1px;">
+              <h4>{{[colum.IdOrden]}}</h4>
+            </td>
+          </tr>
+          </table>
+        </div>
+      </div>
+      <div class="col-12"  *ngIf="bandera==1">
+        <br>
+      </div>
+    </div>
+  </div>
+  

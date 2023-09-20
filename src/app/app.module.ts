@@ -16,6 +16,7 @@ import { CongoComponent } from './congo/congo.component';
 import { TarjetaComponent } from './tarjeta/tarjeta.component';
 import { MargaritaComponent } from './margarita/margarita.component';
 import { ViviendaComponent } from './vivienda/vivienda.component';
+import { MindelComponent } from './mindel/mindel.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ViviendaComponent } from './vivienda/vivienda.component';
     CongoComponent,
     TarjetaComponent,
     MargaritaComponent,
-    ViviendaComponent
+    ViviendaComponent,
+    MindelComponent
   ],
   imports: [
     BrowserModule,

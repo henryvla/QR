@@ -71,7 +71,7 @@ export class ViviendaComponent implements OnInit{
      "IdOrden": 9010,
      "IdQR": "20jo2k12",
      "Etapa": 3
-    },
+    }/*,
     {
      "N": 11,
      "IdOrden": 9011,
@@ -24041,7 +24041,7 @@ export class ViviendaComponent implements OnInit{
      "IdOrden": 13005,
      "IdQR": "20bi4yuv",
      "Etapa": 3
-    }/*,
+    },
     //QR2
     {
      "N": 4006,

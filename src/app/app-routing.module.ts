@@ -7,6 +7,7 @@ import { TarjetaComponent } from './tarjeta/tarjeta.component';
 import { MargaritaComponent } from './margarita/margarita.component';
 import { TablaComponent } from './tabla/tabla.component';
 import { ViviendaComponent } from './vivienda/vivienda.component';
+import { MindelComponent } from './mindel/mindel.component';
 
 const routes: Routes = [
   { path: 'Campanera', component: CampaneraComponent },
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'Margaritas', component: MargaritaComponent },
   { path: 'Tabla', component: TablaComponent },
   { path: 'Vivienda', component: ViviendaComponent },
+  { path: 'mindel', component: MindelComponent }
 ];
 
 @NgModule({
