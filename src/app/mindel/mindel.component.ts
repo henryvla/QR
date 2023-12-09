@@ -11,6 +11,7 @@ export class MindelComponent implements OnInit{
   tipoQR: any;
   valorQR!: string;
   bandera: number =0;
+  //prueba commit
   Vivienda=[
     //QR1
     {
